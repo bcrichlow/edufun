@@ -21,7 +21,7 @@ To install Terraform, visit [Terraform.io](https://www.terraform.io/downloads.ht
 With Terraform installed, let's create some infrastructure.
 
 ## Terraform Workflow
-The Terraform workflow is write, plan, and apply. In this guide you will perform all three stages. See: [What is Terraform?](https://www.terraform.io/intro) for more details. 
+The Terraform workflow is write, plan, and apply. In this guide, you will perform all three stages. See [What is Terraform?](https://www.terraform.io/intro) for more details.
 
 ## Select Location
 Create a new directory for the Terraform configuration code.
@@ -78,7 +78,7 @@ Check for any errors. Then provision the resource with the `apply` command.
 $ terraform apply
 ```
 
-The `terraform apply` command may take a few minutes to complete. When the plan is applied, Terraform will display: `Apply complete!`. The `apply` command  creates new plan.
+The `terraform apply` command may take a few minutes to complete. When the plan is applied, Terraform will display: `Apply complete!`. The `apply` command creates a new plan.
 
 ## Destroy Resources
 Finally, destroy the infrastructure.
